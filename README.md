@@ -1,5 +1,5 @@
 ### Попытка собрать XCFramework с тразнитивным модулем XCFrameworkChild
-- **XCFrameworkDemo** - плейграунд для тестирования собранного XCFramework
+- **XCFrameworkDemo** - плейграунд для тестирования собранного `XCFramework`
 - **xcframework.sh** - исполняемый скрипт для создания .xcframework или universal framework
 - **builds** - папка с артефактами сборки
 
