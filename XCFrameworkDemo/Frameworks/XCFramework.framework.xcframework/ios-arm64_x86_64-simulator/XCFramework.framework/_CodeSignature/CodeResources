@@ -10,11 +10,27 @@
 		</data>
 		<key>Frameworks/XCFrameworkChild.framework/XCFrameworkChild</key>
 		<data>
-		JM5Qz941P7nh2trsOmTLcV2c1BE=
+		3fFdYwAVGZdXa58d6R15kwYb6IM=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		KKli5Q2cX0acCnPcw75AlHxCTZs=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		1Gxv0fJ9lgnObLlu76SphJVtjLk=
 		</data>
 		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeResources</key>
 		<data>
 		xCScBYbVOhetWOYkF6QgpOzNdMs=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Headers/XCFramework-Swift.h</key>
 		<data>
@@ -61,6 +77,10 @@
 	<dict>
 		<key>Frameworks/XCFrameworkChild.framework/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			xX6DB2JZO9wEgLSLAQ2L21PMJhI=
+			</data>
 			<key>hash2</key>
 			<data>
 			V6ufZNrynGwmzGGNqfEVMa4gw0cx3kJYJ5xv8aJ4MMI=
@@ -68,20 +88,76 @@
 		</dict>
 		<key>Frameworks/XCFrameworkChild.framework/XCFrameworkChild</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			3fFdYwAVGZdXa58d6R15kwYb6IM=
+			</data>
 			<key>hash2</key>
 			<data>
-			Qe51EvXRVHgjwp5Xnb31QjsZ5MoEpG+KqCFQY2P+zH4=
+			O5Ax3DiFKOOCfK70xBMbWUHltuBKAABDeM68XUb+8wA=
+			</data>
+		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KKli5Q2cX0acCnPcw75AlHxCTZs=
+			</data>
+			<key>hash2</key>
+			<data>
+			MWspBxwSW8dy0Cu6pw41zdFrHVftGNsk05AOq9rHrf4=
+			</data>
+		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OnX22wWFKRSOFN1+obRynMCeyXM=
+			</data>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Gxv0fJ9lgnObLlu76SphJVtjLk=
+			</data>
+			<key>hash2</key>
+			<data>
+			D/SnRGk55ug3RmygSPdJQtXQpSzKuRgMgWKPSowLlds=
 			</data>
 		</dict>
 		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			xCScBYbVOhetWOYkF6QgpOzNdMs=
+			</data>
 			<key>hash2</key>
 			<data>
 			ybwRHQZXZwwe3ZfZlGEwmgW1EmNEp/LvItzZrHc4b0M=
 			</data>
 		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			</data>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			</data>
+		</dict>
 		<key>Headers/XCFramework-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			w6DymrNi3FjJnvIrZjKY6yspINs=
+			</data>
 			<key>hash2</key>
 			<data>
 			Ga02Q1PE1aaXjzgEozi/uWr/hpWz5aVjgP/LvqRj8XA=
@@ -89,6 +165,10 @@
 		</dict>
 		<key>Headers/XCFramework.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1tMpoI8w5hvpktAooXvrhgaIUGY=
+			</data>
 			<key>hash2</key>
 			<data>
 			ttLXfuf/fah6gU7UE3bkPr0USWMwtP1644tIjF6AJ7s=
@@ -96,6 +176,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			LGPFP39qP5oHQNxyk56C5QyPD/U=
+			</data>
 			<key>hash2</key>
 			<data>
 			Q+6SnAHVQCHxSQHDdXP4Yuh2dFZ/rQrHlyA+A9gi19g=
@@ -103,6 +187,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			/fdIYnKrl9SyrLULfm55tyiJBZY=
+			</data>
 			<key>hash2</key>
 			<data>
 			v2YYEcQ44F8/8DyAzNtG5Emay3+s+tyHsap/slPTfdk=
@@ -110,6 +198,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			4QvlX2itGJQ7rkAcOoR8kODxQuE=
+			</data>
 			<key>hash2</key>
 			<data>
 			6pUC57YaXl2O/iHSGbj2HkLvwNgFcm+U2zZbLbLMM4I=
@@ -117,6 +209,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			RkPFqhNZaiIMwLTNGdp/bOKekG8=
+			</data>
 			<key>hash2</key>
 			<data>
 			5ILj2kBzbAI5TggqjbGpIDFIqqm91kYUJTiaaKzzvcQ=
@@ -124,6 +220,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			MkifWEVzV+iZVeY90/K6J+Mg0Mw=
+			</data>
 			<key>hash2</key>
 			<data>
 			v+Ui+NLPFlPOHEBiqfgPtJ30PhNrxGQ23RF2Yt4LBvg=
@@ -131,6 +231,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			bmzQOTTidgES/R9snmsS5bS6GI0=
+			</data>
 			<key>hash2</key>
 			<data>
 			cibXroPS833UyuCbjytgN52XTnD4J4v2Ax//ssVVDYM=
@@ -138,6 +242,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			flnzne8O5S91im6rH1jl7thJcPA=
+			</data>
 			<key>hash2</key>
 			<data>
 			Owx4zlOv7gBNG+BzQp6A+ZncMyaHyk1YCc/QfJsXbKQ=

@@ -10,11 +10,27 @@
 		</data>
 		<key>Frameworks/XCFrameworkChild.framework/XCFrameworkChild</key>
 		<data>
-		X8zrcAwD9UQrvssYoJPHbGziHGY=
+		rpaTEIHfqYQh9k6nI/YB9UZiNLo=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeDirectory</key>
+		<data>
+		ycbO8rFvLxisinPrCMBwTD7BVGY=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeRequirements</key>
+		<data>
+		pxrC9FuJUuj4eLcMVRbcRDkzc+s=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		E0HkRSOBiCTQOAzyI8WQu0EO2Wc=
 		</data>
 		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeResources</key>
 		<data>
 		6xpP/gs660yI9u7qQEmufNpUsJU=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeSignature</key>
+		<data>
+		p4Aw6Vdfl/7VItC0BdnY9RnF2HI=
 		</data>
 		<key>Headers/XCFramework-Swift.h</key>
 		<data>
@@ -49,6 +65,10 @@
 	<dict>
 		<key>Frameworks/XCFrameworkChild.framework/Info.plist</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			D0F370+U15QzioEuzPBgW/yrwts=
+			</data>
 			<key>hash2</key>
 			<data>
 			me17zRSqgZ2QsLk+9PkqXtH5BtFcZ236IFCvaI0vq8g=
@@ -56,20 +76,76 @@
 		</dict>
 		<key>Frameworks/XCFrameworkChild.framework/XCFrameworkChild</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			rpaTEIHfqYQh9k6nI/YB9UZiNLo=
+			</data>
 			<key>hash2</key>
 			<data>
-			ahzB0mDuMPzsaPzKb91ZrTcc4gqUI+3kkIzmH3V9kZE=
+			m/p1Xp49/N4EPB5f5QluL3uQm0+8DwxL9uSD9D8i7LM=
+			</data>
+		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ycbO8rFvLxisinPrCMBwTD7BVGY=
+			</data>
+			<key>hash2</key>
+			<data>
+			HxZX/FJ3gbthXoizTxYx73aBZI7bsoI5W4S6ustskhU=
+			</data>
+		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			pxrC9FuJUuj4eLcMVRbcRDkzc+s=
+			</data>
+			<key>hash2</key>
+			<data>
+			jktPnWU03eb9JOx910a0rM1slPTsY7vSjydNmedIwe8=
+			</data>
+		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			E0HkRSOBiCTQOAzyI8WQu0EO2Wc=
+			</data>
+			<key>hash2</key>
+			<data>
+			W2+cx3gv8qev3jZQjBtYvSUCFJu6Ut6ws/sExqghf4Q=
 			</data>
 		</dict>
 		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeResources</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			6xpP/gs660yI9u7qQEmufNpUsJU=
+			</data>
 			<key>hash2</key>
 			<data>
 			QgtbrysLSb/+B0DeDS2/6UcLsLHDBL+6qE/TdY46LlQ=
 			</data>
 		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p4Aw6Vdfl/7VItC0BdnY9RnF2HI=
+			</data>
+			<key>hash2</key>
+			<data>
+			hNy1HU4E5Miz6Sr7eIIXrKspY1z4aNrYoBmQld+JEak=
+			</data>
+		</dict>
 		<key>Headers/XCFramework-Swift.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			DaBiBWpBetl8AVXZW9et50MB/hI=
+			</data>
 			<key>hash2</key>
 			<data>
 			9j6eqeEx9+X6okw+2gqTcvRXtlQjSNU+dSiG8iZB7e0=
@@ -77,6 +153,10 @@
 		</dict>
 		<key>Headers/XCFramework.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			1tMpoI8w5hvpktAooXvrhgaIUGY=
+			</data>
 			<key>hash2</key>
 			<data>
 			ttLXfuf/fah6gU7UE3bkPr0USWMwtP1644tIjF6AJ7s=
@@ -84,6 +164,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			CLWS/N7SvVWFp0KJjMRZdh4uZTA=
+			</data>
 			<key>hash2</key>
 			<data>
 			MuNRcoriM2LVcND/5rOH8CklAbx7mKUnwLEMPvRsvKg=
@@ -91,6 +175,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			2l8wHO9fM1PWUE5DfexduALay2E=
+			</data>
 			<key>hash2</key>
 			<data>
 			s8uSmYNjdsfPTEITkJU41F3tbRadQ0hk9B4ulE3vhmo=
@@ -98,6 +186,10 @@
 		</dict>
 		<key>Modules/XCFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			ghlx/gTS+ySCEBrdIKjSQaAwlcA=
+			</data>
 			<key>hash2</key>
 			<data>
 			D1CfEcyZJcMlRPWbijR6X5xI9VdT8P4iyYBoxcANyTw=
@@ -105,6 +197,10 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			flnzne8O5S91im6rH1jl7thJcPA=
+			</data>
 			<key>hash2</key>
 			<data>
 			Owx4zlOv7gBNG+BzQp6A+ZncMyaHyk1YCc/QfJsXbKQ=
