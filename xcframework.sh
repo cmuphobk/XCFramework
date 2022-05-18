@@ -6,7 +6,7 @@ rm -rf builds
 
 NAME="XCFramework"
 
-set -o pipefail && xcodebuild archive \
+set -o pipefail && xcodebuild build \
 -workspace "./${NAME}.xcworkspace" \
 -scheme "${NAME}" \
 -configuration Release \
@@ -14,9 +14,9 @@ set -o pipefail && xcodebuild archive \
 SKIP_INSTALL=NO \
 BUILD_LIBRARY_FOR_DISTRIBUTION=YES \
 -sdk iphoneos \
--archivePath "builds/archives/iphoneos.xcarchive"
+-derivedDataPath builds
 
-set -o pipefail && xcodebuild archive  \
+set -o pipefail && xcodebuild build  \
 -workspace "./${NAME}.xcworkspace"  \
 -scheme "${NAME}"  \
 -configuration Release \
@@ -24,16 +24,8 @@ set -o pipefail && xcodebuild archive  \
 SKIP_INSTALL=NO \
 BUILD_LIBRARY_FOR_DISTRIBUTION=YES  \
 -sdk iphonesimulator \
--archivePath "builds/archives/simulator.xcarchive"
+-derivedDataPath builds
 
-for FRAMEWORKS_PATH in $(find ./builds/archives/iphoneos.xcarchive/Products/Library/Frameworks -name "*.framework" -maxdepth 1 -print0 | xargs -0 -n1 | sort --unique); do
-    FRAMEWORKS=" -framework ${FRAMEWORKS_PATH}"
-
-    FRAMEWORK_NAME="$(echo ${FRAMEWORKS_PATH} | rev | cut -d/ -f1 | rev)"
-
-    FRAMEWORKS+=" -framework $(find ./builds/archives/simulator.xcarchive/Products/Library/Frameworks -name "${FRAMEWORK_NAME}" -maxdepth 1 -print0)"
-
-    CMD="xcodebuild -create-xcframework ${FRAMEWORKS} -output ./builds/${FRAMEWORK_NAME}.xcframework"
-
-    eval $CMD
-done
+xcodebuild -create-xcframework -output "./builds/${NAME}.xcframework" \
+    -framework "./builds/Build/Products/Release-iphoneos/${NAME}.framework" \
+    -framework "./builds/Build/Products/Release-iphonesimulator/${NAME}.framework" \

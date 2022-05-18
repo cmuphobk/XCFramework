@@ -13,9 +13,7 @@
 		AF0A3CD22833CB3000C13C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0A3CD02833CB3000C13C5C /* Main.storyboard */; };
 		AF0A3CD42833CB3000C13C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF0A3CD32833CB3000C13C5C /* Assets.xcassets */; };
 		AF0A3CD72833CB3000C13C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF0A3CD52833CB3000C13C5C /* LaunchScreen.storyboard */; };
-		AF0A3CE928342C1700C13C5C /* XCFramework.framework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF0A3CE628342C1700C13C5C /* XCFramework.framework.xcframework */; };
-		AF0A3CEA28342C1700C13C5C /* XCFramework.framework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF0A3CE628342C1700C13C5C /* XCFramework.framework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AFE3475A2834F38E001E6298 /* XCFrameworkChild.framework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE347592834F38E001E6298 /* XCFrameworkChild.framework.xcframework */; };
+		AFE3476228350853001E6298 /* XCFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE3476128350853001E6298 /* XCFramework.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AF0A3CEA28342C1700C13C5C /* XCFramework.framework.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,8 +38,7 @@
 		AF0A3CD32833CB3000C13C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF0A3CD62833CB3000C13C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF0A3CD82833CB3000C13C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF0A3CE628342C1700C13C5C /* XCFramework.framework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XCFramework.framework.xcframework; path = Frameworks/XCFramework.framework.xcframework; sourceTree = "<group>"; };
-		AFE347592834F38E001E6298 /* XCFrameworkChild.framework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XCFrameworkChild.framework.xcframework; path = Frameworks/XCFrameworkChild.framework.xcframework; sourceTree = "<group>"; };
+		AFE3476128350853001E6298 /* XCFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XCFramework.xcframework; path = Frameworks/XCFramework.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFE3475A2834F38E001E6298 /* XCFrameworkChild.framework.xcframework in Frameworks */,
-				AF0A3CE928342C1700C13C5C /* XCFramework.framework.xcframework in Frameworks */,
+				AFE3476228350853001E6298 /* XCFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +87,7 @@
 		AF0A3CDE2833CB4400C13C5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFE347592834F38E001E6298 /* XCFrameworkChild.framework.xcframework */,
-				AF0A3CE628342C1700C13C5C /* XCFramework.framework.xcframework */,
+				AFE3476128350853001E6298 /* XCFramework.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -320,7 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NK4NJ4UMKM;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
 				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XCFrameworkDemo/Info.plist;
@@ -351,7 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NK4NJ4UMKM;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/Frameworks";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = XCFrameworkDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
