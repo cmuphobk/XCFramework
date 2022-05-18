@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/XCFrameworkChild.framework/Info.plist</key>
+		<data>
+		D0F370+U15QzioEuzPBgW/yrwts=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/XCFrameworkChild</key>
+		<data>
+		X8zrcAwD9UQrvssYoJPHbGziHGY=
+		</data>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeResources</key>
+		<data>
+		6xpP/gs660yI9u7qQEmufNpUsJU=
+		</data>
 		<key>Headers/XCFramework-Swift.h</key>
 		<data>
 		DaBiBWpBetl8AVXZW9et50MB/hI=
@@ -26,7 +38,7 @@
 		</data>
 		<key>Modules/XCFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8SzWZZIG+kPDrdahLnxmLNZlNDY=
+		ghlx/gTS+ySCEBrdIKjSQaAwlcA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,6 +47,27 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/XCFrameworkChild.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			me17zRSqgZ2QsLk+9PkqXtH5BtFcZ236IFCvaI0vq8g=
+			</data>
+		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/XCFrameworkChild</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ahzB0mDuMPzsaPzKb91ZrTcc4gqUI+3kkIzmH3V9kZE=
+			</data>
+		</dict>
+		<key>Frameworks/XCFrameworkChild.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QgtbrysLSb/+B0DeDS2/6UcLsLHDBL+6qE/TdY46LlQ=
+			</data>
+		</dict>
 		<key>Headers/XCFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -67,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jeQG7p64lotsd6mDTFtqYVfOe0koTu+MqfP5acQiNyg=
+			D1CfEcyZJcMlRPWbijR6X5xI9VdT8P4iyYBoxcANyTw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

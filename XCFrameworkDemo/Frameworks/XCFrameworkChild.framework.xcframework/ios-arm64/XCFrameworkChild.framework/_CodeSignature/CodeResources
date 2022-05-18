@@ -4,41 +4,77 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/Pods-XCFramework-umbrella.h</key>
+		<key>Headers/XCFrameworkChild-Swift.h</key>
 		<data>
-		6X+dY53Axf++Ek9bwoO5PuMrX/4=
+		CR8MfO0DWbAncQ/DQjq5TezpSsU=
+		</data>
+		<key>Headers/XCFrameworkChild.h</key>
+		<data>
+		MBQDKCt3t7T/0Bd/FeGblkudCPM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sZ81AAzFB0PJQRm/a+j9IsLwr2A=
+		D0F370+U15QzioEuzPBgW/yrwts=
+		</data>
+		<key>Modules/XCFrameworkChild.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		IL+NpZWMJh2QBBamqc/Xis1nBC4=
+		</data>
+		<key>Modules/XCFrameworkChild.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		Wq+HuenuerywsRLlWQdiI/+JbHM=
+		</data>
+		<key>Modules/XCFrameworkChild.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		6iyFjd/obnlYdJmU7oxXYgCC8DA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		U9G89jWAXxcU0v2e2Q+i6y0/XBc=
+		DS73wTokQima6tTHpKKu+1BERMQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/Pods-XCFramework-umbrella.h</key>
+		<key>Headers/XCFrameworkChild-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6X+dY53Axf++Ek9bwoO5PuMrX/4=
-			</data>
 			<key>hash2</key>
 			<data>
-			BPxJ9wybw5mLCeyFywgcc8qn+fNX2PFAz6iScwvRKjE=
+			lvLqDUr6ID9upWFTxRgU6ooFdTL3VLbRBtMXvYKRODY=
+			</data>
+		</dict>
+		<key>Headers/XCFrameworkChild.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MoiDi5R2cotdpCzm7zayrMiiFZgcOnodFSMqWZ+qMQw=
+			</data>
+		</dict>
+		<key>Modules/XCFrameworkChild.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xgrIVd7+Qv2saMTv0tH1G6rwD/WTEWe0aJmp2Kvhwdw=
+			</data>
+		</dict>
+		<key>Modules/XCFrameworkChild.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+eg1QXwtupvioscVdSEDnl60fVpF0+vu5XZz0v33YL0=
+			</data>
+		</dict>
+		<key>Modules/XCFrameworkChild.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Lo3EpkaD+KWeI7upj6YMlAFTAEB947qRxMYEkKyXvXk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			U9G89jWAXxcU0v2e2Q+i6y0/XBc=
-			</data>
 			<key>hash2</key>
 			<data>
-			rBsyMcKQVh0A7QTPrQSfR7YBRMtpMqbcaYY1tLIy3nA=
+			DceCjbhP7DwdogKWw3l0RirrWgEY/soaVlFZRIOcHf0=
 			</data>
 		</dict>
 	</dict>

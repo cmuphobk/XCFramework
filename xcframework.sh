@@ -26,12 +26,12 @@ BUILD_LIBRARY_FOR_DISTRIBUTION=YES  \
 -sdk iphonesimulator \
 -archivePath "builds/archives/simulator.xcarchive"
 
-for FRAMEWORKS_PATH in $(find ./builds/archives/iphoneos.xcarchive/Products/Library/Frameworks -name "*.framework" -print0 | xargs -0 -n1 | sort --unique); do
+for FRAMEWORKS_PATH in $(find ./builds/archives/iphoneos.xcarchive/Products/Library/Frameworks -name "*.framework" -maxdepth 1 -print0 | xargs -0 -n1 | sort --unique); do
     FRAMEWORKS=" -framework ${FRAMEWORKS_PATH}"
 
     FRAMEWORK_NAME="$(echo ${FRAMEWORKS_PATH} | rev | cut -d/ -f1 | rev)"
 
-    FRAMEWORKS+=" -framework $(find ./builds/archives/simulator.xcarchive/Products/Library/Frameworks -name "${FRAMEWORK_NAME}" -print0)"
+    FRAMEWORKS+=" -framework $(find ./builds/archives/simulator.xcarchive/Products/Library/Frameworks -name "${FRAMEWORK_NAME}" -maxdepth 1 -print0)"
 
     CMD="xcodebuild -create-xcframework ${FRAMEWORKS} -output ./builds/${FRAMEWORK_NAME}.xcframework"
 

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF0A3CB12833C83F00C13C5C /* XCFrameworkChildFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0A3CB02833C83F00C13C5C /* XCFrameworkChildFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF0A3CB12833C83F00C13C5C /* XCFrameworkChild.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0A3CB02833C83F00C13C5C /* XCFrameworkChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF0A3CB82833C87E00C13C5C /* XCFrameworkChildLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A3CB72833C87E00C13C5C /* XCFrameworkChildLocator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF0A3CAD2833C83F00C13C5C /* XCFrameworkChildFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCFrameworkChildFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF0A3CB02833C83F00C13C5C /* XCFrameworkChildFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCFrameworkChildFramework.h; sourceTree = "<group>"; };
+		AF0A3CAD2833C83F00C13C5C /* XCFrameworkChild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCFrameworkChild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0A3CB02833C83F00C13C5C /* XCFrameworkChild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCFrameworkChild.h; sourceTree = "<group>"; };
 		AF0A3CB72833C87E00C13C5C /* XCFrameworkChildLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCFrameworkChildLocator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +39,7 @@
 		AF0A3CAE2833C83F00C13C5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF0A3CAD2833C83F00C13C5C /* XCFrameworkChildFramework.framework */,
+				AF0A3CAD2833C83F00C13C5C /* XCFrameworkChild.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,7 +47,7 @@
 		AF0A3CAF2833C83F00C13C5C /* XCFrameworkChild */ = {
 			isa = PBXGroup;
 			children = (
-				AF0A3CB02833C83F00C13C5C /* XCFrameworkChildFramework.h */,
+				AF0A3CB02833C83F00C13C5C /* XCFrameworkChild.h */,
 				AF0A3CB72833C87E00C13C5C /* XCFrameworkChildLocator.swift */,
 			);
 			path = XCFrameworkChild;
@@ -60,16 +60,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF0A3CB12833C83F00C13C5C /* XCFrameworkChildFramework.h in Headers */,
+				AF0A3CB12833C83F00C13C5C /* XCFrameworkChild.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AF0A3CAC2833C83F00C13C5C /* XCFrameworkChildFramework */ = {
+		AF0A3CAC2833C83F00C13C5C /* XCFrameworkChild */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF0A3CB42833C83F00C13C5C /* Build configuration list for PBXNativeTarget "XCFrameworkChildFramework" */;
+			buildConfigurationList = AF0A3CB42833C83F00C13C5C /* Build configuration list for PBXNativeTarget "XCFrameworkChild" */;
 			buildPhases = (
 				AF0A3CA82833C83F00C13C5C /* Headers */,
 				AF0A3CA92833C83F00C13C5C /* Sources */,
@@ -80,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = XCFrameworkChildFramework;
+			name = XCFrameworkChild;
 			productName = XCFrameworkChild;
-			productReference = AF0A3CAD2833C83F00C13C5C /* XCFrameworkChildFramework.framework */;
+			productReference = AF0A3CAD2833C83F00C13C5C /* XCFrameworkChild.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +100,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF0A3CA72833C83F00C13C5C /* Build configuration list for PBXProject "XCFrameworkChildFramework" */;
+			buildConfigurationList = AF0A3CA72833C83F00C13C5C /* Build configuration list for PBXProject "XCFrameworkChild" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF0A3CAC2833C83F00C13C5C /* XCFrameworkChildFramework */,
+				AF0A3CAC2833C83F00C13C5C /* XCFrameworkChild */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF0A3CA72833C83F00C13C5C /* Build configuration list for PBXProject "XCFrameworkChildFramework" */ = {
+		AF0A3CA72833C83F00C13C5C /* Build configuration list for PBXProject "XCFrameworkChild" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF0A3CB22833C83F00C13C5C /* Debug */,
@@ -333,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF0A3CB42833C83F00C13C5C /* Build configuration list for PBXNativeTarget "XCFrameworkChildFramework" */ = {
+		AF0A3CB42833C83F00C13C5C /* Build configuration list for PBXNativeTarget "XCFrameworkChild" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF0A3CB52833C83F00C13C5C /* Debug */,

@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		AF0A3C9B2833C79600C13C5C /* XCFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0A3C9A2833C79600C13C5C /* XCFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF0A3CA22833C7A400C13C5C /* XCFrameworkLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0A3CA12833C7A400C13C5C /* XCFrameworkLocator.swift */; };
-		EF44175E6036B6EB47BEF435 /* Pods_XCFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0433182618A1DA4BFC3F8D6 /* Pods_XCFramework.framework */; };
+		AFE347572834EF97001E6298 /* XCFrameworkChild.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE347562834EF97001E6298 /* XCFrameworkChild.framework */; };
+		AFE347582834EF97001E6298 /* XCFrameworkChild.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFE347562834EF97001E6298 /* XCFrameworkChild.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +20,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				AFE347582834EF97001E6298 /* XCFrameworkChild.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -26,12 +28,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		199994B432B8DFF2D95FA5F2 /* Pods-XCFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFramework.debug.xcconfig"; path = "Target Support Files/Pods-XCFramework/Pods-XCFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		87451782C8B85C24A9B98F28 /* Pods-XCFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCFramework.release.xcconfig"; path = "Target Support Files/Pods-XCFramework/Pods-XCFramework.release.xcconfig"; sourceTree = "<group>"; };
 		AF0A3C972833C79600C13C5C /* XCFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF0A3C9A2833C79600C13C5C /* XCFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XCFramework.h; sourceTree = "<group>"; };
 		AF0A3CA12833C7A400C13C5C /* XCFrameworkLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCFrameworkLocator.swift; sourceTree = "<group>"; };
-		D0433182618A1DA4BFC3F8D6 /* Pods_XCFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE347562834EF97001E6298 /* XCFrameworkChild.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XCFrameworkChild.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,29 +39,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF44175E6036B6EB47BEF435 /* Pods_XCFramework.framework in Frameworks */,
+				AFE347572834EF97001E6298 /* XCFrameworkChild.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3E2326AF4BAB5C2A689D4215 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				199994B432B8DFF2D95FA5F2 /* Pods-XCFramework.debug.xcconfig */,
-				87451782C8B85C24A9B98F28 /* Pods-XCFramework.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		AF0A3C8D2833C79600C13C5C = {
 			isa = PBXGroup;
 			children = (
 				AF0A3C992833C79600C13C5C /* XCFramework */,
 				AF0A3C982833C79600C13C5C /* Products */,
 				AF0A3CB92833C8CF00C13C5C /* Frameworks */,
-				3E2326AF4BAB5C2A689D4215 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +75,7 @@
 		AF0A3CB92833C8CF00C13C5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D0433182618A1DA4BFC3F8D6 /* Pods_XCFramework.framework */,
+				AFE347562834EF97001E6298 /* XCFrameworkChild.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -108,7 +98,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF0A3C9E2833C79600C13C5C /* Build configuration list for PBXNativeTarget "XCFramework" */;
 			buildPhases = (
-				22C5C494E9BF3354B5D99E9B /* [CP] Check Pods Manifest.lock */,
 				AF0A3C922833C79600C13C5C /* Headers */,
 				AF0A3C932833C79600C13C5C /* Sources */,
 				AF0A3C942833C79600C13C5C /* Frameworks */,
@@ -166,31 +155,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		22C5C494E9BF3354B5D99E9B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XCFramework-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AF0A3C932833C79600C13C5C /* Sources */ = {
@@ -326,7 +290,6 @@
 		};
 		AF0A3C9F2833C79600C13C5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 199994B432B8DFF2D95FA5F2 /* Pods-XCFramework.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -337,6 +300,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(TARGET_BUILD_DIR)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -358,7 +322,6 @@
 		};
 		AF0A3CA02833C79600C13C5C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87451782C8B85C24A9B98F28 /* Pods-XCFramework.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_ENABLE_MODULES = YES;
@@ -369,6 +332,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(TARGET_BUILD_DIR)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";

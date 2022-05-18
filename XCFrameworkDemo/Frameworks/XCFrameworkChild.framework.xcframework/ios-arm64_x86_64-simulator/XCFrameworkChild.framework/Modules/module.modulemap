@@ -1,5 +1,5 @@
 framework module XCFrameworkChild {
-  umbrella header "XCFrameworkChild-umbrella.h"
+  umbrella header "XCFrameworkChild.h"
 
   export *
   module * { export * }
