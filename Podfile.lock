@@ -1,0 +1,16 @@
+PODS:
+  - XCFrameworkChild (1.0.0)
+
+DEPENDENCIES:
+  - XCFrameworkChild (from `./XCFrameworkChild`)
+
+EXTERNAL SOURCES:
+  XCFrameworkChild:
+    :path: "./XCFrameworkChild"
+
+SPEC CHECKSUMS:
+  XCFrameworkChild: afc75e1203a0363783d4698166955eab7fc19f4a
+
+PODFILE CHECKSUM: be0672db5710c4c423ec36c967f8e3fc5e30d1e2
+
+COCOAPODS: 1.11.0
